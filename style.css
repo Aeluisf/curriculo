@@ -1,11 +1,64 @@
+/* style.css */
 body {
     font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand, .nav-link {
+    color: #000000 !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #fb0000 !important;
 }
 
 h2 {
-    margin-top: 20px;
+    color: #07055d;
+    text-align: center;
 }
 
 .card {
-    margin-top: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(13, 0, 255, 0.1);
+}
+
+.card-title {
+    color: #007bff;
+}
+
+ul {
+    
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.fa-envelope, .fa-phone, .fab {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #ffdd57;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.card-body h2 {
+    text-align: center;
 }
