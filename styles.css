@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+}
+
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ee0000;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 20px;
+    }
+}
